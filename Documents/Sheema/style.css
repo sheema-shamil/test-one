@@ -1,0 +1,21 @@
+.logo{
+  text-align: center;
+  background-color: rgba(100, 148, 237, 0.342);
+}
+body {
+background-image: url(./images/6370b85e2f870a0a4959de83.jpeg);
+background-size: cover;
+background-repeat: space;
+}
+ 
+form {
+  text-align: center;
+  align-items: center;
+  place-content:center;
+  background-color: rgba(220, 235, 245, 0.411);
+}
+
+button{
+  
+ 
+}
