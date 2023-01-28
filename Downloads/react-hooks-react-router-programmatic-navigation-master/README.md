@@ -1,11 +1,4 @@
 # Programmatic Navigation
-
-## Learning Goals
-
-- Understand the use cases for programmatic navigation
-- Use the `useHistory` hook to perform programmatic navigation
-- Use the `<Redirect>` component to perform programmatic navigation
-
 ## Introduction
 
 So far, we've used a couple components from React Router to allow our users to
@@ -21,16 +14,6 @@ click a link. For example:
 All of these actions require us to use **programmatic navigation** to change the
 browser URL, and show the user a new page in our application, **without** making
 the user click on a link.
-
-**Note:** We have attached some files so you can see an example app in which
-programmatic navigation has been implemented. While the basic functionality is
-the same as what's described below, there are a number of differences for two
-reasons: 1) the code in the lesson is substantially pared down to make it easier
-to focus on the specific functionality being explained; and 2) the login/logout
-functionality is mocked in the example app so you don't need to run a server. We
-recommend that you read through the lesson first, focusing on understanding how
-programmatic navigation works. Once you've done that, feel free to start up the
-app and explore a (mostly) working example.
 
 ## The useHistory Hook
 
@@ -146,9 +129,3 @@ However, there are certain scenarios when we want to navigate a user to a new
 page after they perform some other type of action, like submitting a form or
 logging out. React Router provides two tools to help us with these scenarios:
 the `useHistory` hook and the `<Redirect>` component.
-
-## Resources
-
-- [React Router Hooks](https://v5.reactrouter.com/web/api/Hooks)
-- [React Router history object](https://v5.reactrouter.com/web/api/history)
-- [Redirect](https://v5.reactrouter.com/web/api/Redirect)
