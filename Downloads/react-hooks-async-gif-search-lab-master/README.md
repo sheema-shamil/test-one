@@ -3,9 +3,7 @@
 ## Instructions
 
 You're going to be building out a Gif search using the Giphy API. In this lab,
-there are no tests to pass. Rather, your task is to create a working app in your
-browser using the instructions below. When finished, you should have an
-application that can take in a user's input, fetch JSON data from the Giphy API,
+When finished, you should have an application that can take in a user's input, fetch JSON data from the Giphy API,
 and display the results.
 
 ![giphy search](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-async-gif-search-lab/async.gif)
@@ -20,8 +18,6 @@ While the above API key _may_ work, we recommend creating your own API key by
 following the [instructions on Giphy's developer site][create_key]. Creating a
 key is free and only requires an account. Using your own key will prevent any
 potential rate limiting if other students are also working on this lesson.
-
-[create_key]: https://developers.giphy.com/docs/api/#quick-start-guide
 
 Once you've got your key, you should be able to access the Giphy API from a
 browser and receive a JSON response to confirm everything is working.
@@ -62,11 +58,6 @@ particular image.
     ]
 ```
 
-**Note:** Notice there are many URL keys on each image object. The first `url`
-key, just below `type`, `id`, and `slug`, will bring you to the images page on
-[giphy.com](https://giphy.com/). We only want the path to the actual image,
-which is found at `images.original.url`. Using other `url` keys may cause CORS
-issues.
 
 ## Your Components
 
